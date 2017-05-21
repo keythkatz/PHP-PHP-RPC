@@ -5,7 +5,7 @@ class RpcClient {
 	var $clientKey;
 
 	function __construct(string $s, string $ck){
-		$this->server = "http://" . $s . "/rpc/";
+		$this->server = "https://" . $s . "/rpc/";
 		$this->clientKey = $ck;
 	}
 
